@@ -21,6 +21,7 @@
 		844E5E1B19E14B7800925D62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844E5DFD19E14B7800925D62 /* UIKit.framework */; };
 		844E5E2319E14B7800925D62 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 844E5E2119E14B7800925D62 /* InfoPlist.strings */; };
 		844E5E2519E14B7800925D62 /* GitProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844E5E2419E14B7800925D62 /* GitProjectTests.m */; };
+		8482D35019E159A500F84D75 /* button_ry.png in Resources */ = {isa = PBXBuildFile; fileRef = 8482D34F19E159A500F84D75 /* button_ry.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		844E5E2019E14B7800925D62 /* GitProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitProjectTests-Info.plist"; sourceTree = "<group>"; };
 		844E5E2219E14B7800925D62 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		844E5E2419E14B7800925D62 /* GitProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitProjectTests.m; sourceTree = "<group>"; };
+		8482D34F19E159A500F84D75 /* button_ry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_ry.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		844E5E0019E14B7800925D62 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8482D34F19E159A500F84D75 /* button_ry.png */,
 				844E5E0119E14B7800925D62 /* GitProject-Info.plist */,
 				844E5E0219E14B7800925D62 /* InfoPlist.strings */,
 				844E5E0519E14B7800925D62 /* main.m */,
@@ -230,6 +233,7 @@
 			files = (
 				844E5E1219E14B7800925D62 /* Images.xcassets in Resources */,
 				844E5E0419E14B7800925D62 /* InfoPlist.strings in Resources */,
+				8482D35019E159A500F84D75 /* button_ry.png in Resources */,
 				844E5E0D19E14B7800925D62 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +460,7 @@
 				844E5E2A19E14B7800925D62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		844E5E2B19E14B7800925D62 /* Build configuration list for PBXNativeTarget "GitProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				844E5E2D19E14B7800925D62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
